@@ -32,13 +32,26 @@ public class CoreTest {
 
     @Test
     public void should_return_FizzBuzz_given_15() {
+        //given
         int number = 15;
+
         //when
         String actualValue = new Core().convertToNumberDescription(number);
+
         //then
         assertThat(actualValue).isEqualTo("FizzBuzz");
 
     }
 
+    @Test
+    public void should_return_1_given_1() {
+        //given
+        int number = 1;
 
+        //when
+        String actualValue = new Core().convertToNumberDescription(number);
+
+        //then
+        assertThat(actualValue).isEqualTo("1");
+    }
 }
