@@ -30,5 +30,15 @@ public class CoreTest {
         assertThat(actualValue).isEqualTo("Buzz");
     }
 
+    @Test
+    public void should_return_FizzBuzz_given_15() {
+        int number = 15;
+        //when
+        String actualValue = new Core().convertToNumberDescription(number);
+        //then
+        assertThat(actualValue).isEqualTo("FizzBuzz");
+
+    }
+
 
 }
