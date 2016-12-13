@@ -29,4 +29,6 @@ public class CoreTest {
         //then
         assertThat(actualValue).isEqualTo("Buzz");
     }
+
+
 }
