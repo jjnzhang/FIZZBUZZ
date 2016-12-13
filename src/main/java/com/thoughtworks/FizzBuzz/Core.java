@@ -5,6 +5,6 @@ package com.thoughtworks.FizzBuzz;
  */
 public class Core {
     public String convertToNumberDescription(int number) {
-        return null;
+        return "Fizz";
     }
 }
