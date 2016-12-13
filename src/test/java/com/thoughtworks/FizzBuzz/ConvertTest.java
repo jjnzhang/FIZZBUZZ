@@ -39,5 +39,24 @@ public class ConvertTest {
         assertThat(numberDescriptions.length).isEqualTo(1);
         assertThat(numberDescriptions[0]).isEqualTo("1");
     }
+
+    @Test
+    public void should_return_length_3_array_given_3() {
+        int max = 3;
+
+        //when
+        Core core = mock(Core.class);
+        when(core.convertToNumberDescription(1)).thenReturn("1");
+        when(core.convertToNumberDescription(2)).thenReturn("2");
+        when(core.convertToNumberDescription(3)).thenReturn("Fizz");
+
+        String[] numberDescriptions = new Convert(core).convertToNumberDescriptions(max);
+
+        //then
+        assertThat(numberDescriptions.length).isEqualTo(3);
+        assertThat(numberDescriptions[0]).isEqualTo("1");
+        assertThat(numberDescriptions[1]).isEqualTo("2");
+        assertThat(numberDescriptions[2]).isEqualTo("Fizz");
+    }
 }
 
