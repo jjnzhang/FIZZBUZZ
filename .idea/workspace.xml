@@ -31,11 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CoreTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CoreTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/CoreTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="48" lean-forward="true" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+            <state relative-caret-position="154">
+              <caret line="22" column="42" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -43,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Core.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Core.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/FizzBuzz/Core.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+              <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
               <folding>
                 <element signature="e#157#158#0" expanded="true" />
                 <element signature="e#186#187#0" expanded="true" />
@@ -97,8 +97,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/test/java/com/thoughtworks/FizzBuzz/Core.java" />
-        <option value="$PROJECT_DIR$/src/test/java/CoreTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thoughtworks/FizzBuzz/Core.java" />
+        <option value="$PROJECT_DIR$/src/test/java/CoreTest.java" />
       </list>
     </option>
   </component>
@@ -554,6 +554,12 @@
     <history-entry file="CoreTest - 2016.12.14 at 04h 38m 16s.xml">
       <configuration name="CoreTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CoreTest - 2016.12.14 at 04h 39m 33s.xml">
+      <configuration name="CoreTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CoreTest - 2016.12.14 at 04h 40m 44s.xml">
+      <configuration name="CoreTest" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="HelloWorldTest - 2016.12.14 at 03h 36m 01s.xml">
       <configuration name="HelloWorldTest" configurationId="JUnit" />
     </history-entry>
@@ -647,23 +653,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CoreTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/FizzBuzz/Core.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="48" lean-forward="true" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+        <state relative-caret-position="105">
+          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#157#158#0" expanded="true" />
+            <element signature="e#186#187#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/FizzBuzz/Core.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/CoreTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        <state relative-caret-position="154">
+          <caret line="22" column="42" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="42" />
           <folding>
-            <element signature="e#157#158#0" expanded="true" />
-            <element signature="e#186#187#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -18,4 +18,15 @@ public class CoreTest {
         //then
         assertThat(actualValue).isEqualTo("Fizz");
     }
+
+    @Test
+    public void should_return_Buzz_given_5() {
+
+        //given
+        int number = 5;
+        //when
+        String actualValue = new Core().convertToNumberDescription(number);
+        //then
+        assertThat(actualValue).isEqualTo("Buzz");
+    }
 }
